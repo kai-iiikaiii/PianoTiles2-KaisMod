@@ -3,17 +3,18 @@ import json
 import csv
 
 # Settings
-JSON_DIR = "C:/Users/user/OneDrive/Desktop/pianotiles/song"
-LIST_FILE = "C:/Users/user/OneDrive/Desktop/pianotiles/songLists.txt"
-OUTPUT_CSV = "C:/Users/user/OneDrive/Desktop/pianotiles/songs.csv"
+JSON_DIR = "./song"
+LIST_FILE = "./songLists.txt"
+OUTPUT_CSV = "./songs.csv"
 
 def main():
     with open(LIST_FILE, "r", encoding="utf-8") as f:
         filenames = [line.strip() for line in f if line.strip()]
 
     # Base CSV
-    Songs = [["SongName", "BaseBPM", "first", "second", "third", "firstTPS", "secondTPS", "thirdTPS","avgTPS"]]
+    Songs = [["SongName", "BaseBPM", "first", "second", "third", "firstBB", "secondBB", "thirdBB", "firstTPS", "secondTPS", "thirdTPS","avgTPS"]]
 
+    print("Start finding bpm...")
     for name in filenames:
         json_path = os.path.join(JSON_DIR, name)
 
@@ -38,13 +39,18 @@ def main():
                 first = get_jsonInfo(data.get("musics", []), 0, "bpm")
                 second = get_jsonInfo(data.get("musics", []), 1, "bpm")
                 third = get_jsonInfo(data.get("musics", []), 2, "bpm")
-                firstTPS = calcTPS(first, get_jsonInfo(data.get("musics", []), 0, "baseBeats"))
-                secondTPS = calcTPS(second, get_jsonInfo(data.get("musics", []), 0, "baseBeats"))
-                thirdTPS = calcTPS(third, get_jsonInfo(data.get("musics", []), 0, "baseBeats"))
-                
+                first_bb = get_jsonInfo(data.get("musics", []), 0, "baseBeats")
+                second_bb = get_jsonInfo(data.get("musics", []), 1, "baseBeats")
+                third_bb = get_jsonInfo(data.get("musics", []), 2, "baseBeats")
+                firstTPS = calcTPS(first, first_bb)
+                secondTPS = calcTPS(second, second_bb)
+                thirdTPS = calcTPS(third, third_bb)
+                if first == 19950619:
+                    print(f"nuh uh: {name}")
+
                 TPS = round(((firstTPS + secondTPS + thirdTPS) / 3), 2)
                 # Add Table
-                Songs.append([name, baseBpm, first, second, third, firstTPS, secondTPS, thirdTPS, TPS])
+                Songs.append([name, baseBpm, first, second, third, first_bb, second_bb, third_bb, firstTPS, secondTPS, thirdTPS, TPS])
 
 
         except json.JSONDecodeError:
