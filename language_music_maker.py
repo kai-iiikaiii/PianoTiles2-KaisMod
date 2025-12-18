@@ -3,9 +3,9 @@ import json
 import csv
 
 # Settings
-JSON_DIR = "C:/Users/user/OneDrive/Desktop/pianotiles/song"
-LIST_FILE = "C:/Users/user/OneDrive/Desktop/pianotiles/songLists.txt"
-OUTPUT_CSV = "C:/Users/user/OneDrive/Desktop/pianotiles/output.csv"
+JSON_DIR = "/song"
+LIST_FILE = "/songLists.txt"
+OUTPUT_CSV = "/output.csv"
 
 def main():
     with open(LIST_FILE, "r", encoding="utf-8") as f:
