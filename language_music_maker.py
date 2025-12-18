@@ -3,70 +3,44 @@ import json
 import csv
 
 # Settings
-JSON_DIR = "/song"
-LIST_FILE = "/songLists.txt"
-OUTPUT_CSV = "/output.csv"
+JSON_DIR = "./song"
+LIST_FILE = "./songLists.txt"
+OUTPUT_CSV = "./output.csv"
+INPUT_CSV = "./songs.csv"
 
 def main():
-    with open(LIST_FILE, "r", encoding="utf-8") as f:
-        filenames = [line.strip() for line in f if line.strip()]
 
-    # Base CSV
-    Songs = [["","TID","English","Arabic","Chinese Simplified","Chinese Traditional","Dutch","Filipino","Finnish","French","German","Hindi","Indonesian","Italian","Korean","Japanese","Malay","Norwegian","Polish","Portuguese","Portuguese Brazil","Russian","Spanish","Swedish","Thai","Turkish (old)","Turkish","Vietnamese"],
-            ["","","en","ar","zh-CN","zh-TW","nl","fil","fi","fr","de","hi","id","it","ko","ja","ms","no","pl","pt","pt","ru","es","sv","th","tr","tr","vi"]]
-    Mid = 0
+    output = []
+    Id = 1186
 
-    for name in filenames:
-        json_path = os.path.join(JSON_DIR, name)
+    with open(INPUT_CSV, newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            Id += 1
 
-        if not os.path.exists(json_path):
-            print(f"Skipped: {name} can't find JSON.")
-            continue
+            def calcTPS(bpm, BaseBeats):
+                TPS = (float(bpm) / float(BaseBeats)) / 60
+                return round(TPS, 2)
 
-        try:
-            with open(json_path, "r", encoding="utf-8") as jf:
-                Mid += 1
-                data = json.load(jf)
-                baseBpm = data.get("baseBpm", 0)
+            firstTPS = calcTPS(row["first"], row["firstBB"])
+            secondTPS = calcTPS(row["second"], row["secondBB"])
+            thirdTPS = calcTPS(row["third"], row["thirdBB"])
 
-                def get_jsonInfo(musics, index, element):
-                    if len(musics) > index and isinstance(musics[index], dict):
-                        return musics[index].get(element, baseBpm)
-                    return baseBpm
-                def calcTPS(bpm, BaseBeats):
-                    TPS = (bpm / BaseBeats) / 60
-                    return round(TPS, 2)
 
-                first = get_jsonInfo(data.get("musics", []), 0, "bpm")
-                second = get_jsonInfo(data.get("musics", []), 1, "bpm")
-                third = get_jsonInfo(data.get("musics", []), 2, "bpm")
-                firstTPS = calcTPS(first, get_jsonInfo(data.get("musics", []), 0, "baseBeats"))
-                secondTPS = calcTPS(second, get_jsonInfo(data.get("musics", []), 0, "baseBeats"))
-                thirdTPS = calcTPS(third, get_jsonInfo(data.get("musics", []), 0, "baseBeats"))
-                
-                TPS = round(((firstTPS + secondTPS + thirdTPS) / 3), 2)
+            TPS = round(((firstTPS + secondTPS + thirdTPS) / 3), 2)
+            creator = (f"{TPS} TPS ({firstTPS} / {secondTPS} / {thirdTPS})")
 
-                baseBeats = get_jsonInfo(data.get("musics", []), 0, "baseBeats")
-                MusicName = name.replace(".json", "")
+            SongName = row["SongName"].replace('.json', '')
 
-                creator = (f"{TPS} TPS ({firstTPS} / {secondTPS} / {thirdTPS})") # Write TPS in the song creator field
-                # Add Table
-                Songs.append([Mid,MusicName,MusicName,"","","","","","","","","","","","","","","","","","","","","","","","",""])
 
-                Mid += 1
-                Songs.append([Mid,creator,creator,"","","","","","","","","","","","","","","","","","","","","","","","",""])
-
-        except json.JSONDecodeError:
-            print(f"Error: {name} is invalid JSON.")
-            Songs.append([f"{name} (BROKEN)", 0, 0, 0, 0])
-        except Exception as e:
-            print(f"Error: {name} unknown error. → {e}")
-            Songs.append([f"{name} (BROKEN)", 0, 0, 0, 0])
+            output.append([Id,SongName,SongName,"","","","","","","","","","","","","","","","","","","","","","","","","",""])
+            Id += 1
+            output.append([Id,creator,creator,"","","","","","","","","","","","","","","","","","","","","","","","","",""])
 
     # output table
     with open(OUTPUT_CSV, "w", newline="", encoding="utf-8-sig") as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerows(Songs)
+        writer.writerows(output)
 
     print(f"\n Finished: {OUTPUT_CSV}")
 

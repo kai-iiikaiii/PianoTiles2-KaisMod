@@ -23,6 +23,8 @@ def main():
             Id += 1
             Mid += 1
 
+            SongName = row["SongName"].replace('.json', '')
+
             def calcTPS(bpm, BaseBeats):
                 TPS = (float(bpm) / float(BaseBeats)) / 60
                 return round(TPS, 2)
@@ -41,7 +43,7 @@ def main():
                 float(row["first"]),
                 float(row["firstBB"]),
                 round(float(row["first"]) / float(row["firstBB"])),
-                row["SongName"],
+                SongName,
                 creator,
                 "",
                 "",
@@ -54,7 +56,7 @@ def main():
                 float(row["second"]),
                 float(row["secondBB"]),
                 round(float(row["second"]) / float(row["secondBB"])),
-                row["SongName"],
+                SongName,
                 "",
                 "",
                 "",
@@ -67,7 +69,7 @@ def main():
                 float(row["third"]),
                 float(row["thirdBB"]),
                 round(float(row["third"]) / float(row["thirdBB"])),
-                row["SongName"],
+                SongName,
                 "",
                 "",
                 "",
