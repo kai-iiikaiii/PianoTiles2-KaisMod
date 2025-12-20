@@ -1,0 +1,18 @@
+id,data_tag,item_type,item_content,item_content_cn,buy_mode,productid,productid_cn,sale,title,icon,mark,price,price_cn
+唯一id 大禮包順序別亂改,埋点标识,道具类型 1大礼包 2 单道具 3钻石,礼包内容 数量 钻石类型88,礼包内容 数量 钻石类型88,购买方式 1内购 2 视频 3 钻石,价格 内购商品ID  钻石数量,价格 内购商品ID  钻石数量,折扣 1-100,礼包标题,图标,角标,"coins price only,cant use on iap price now","coins price only,cant use on iap price now"
+20,120,1,"150,1|89,2500|1,2|2,2|0,2","150,1|89,2500|1,2|2,2|0,2",1,com.kooapps.pianotiles2gp.starterpackcheap.p2,com.kooapps.pianotiles2gp.starterpackcheap.p2,,newshop_box1,icon_store_025.png,,,
+21,121,1,"92,100|150,1|89,5000|88,90|1,2|2,2|0,2","92,100|150,1|89,5000|88,90|1,2|2,2|0,2",1,com.kooapps.pianotiles2gp.starterpack.p10,com.kooapps.pianotiles2gp.starterpack.p10,,newshop_box1,icon_store_025.png,,,
+1,101,1,"92,100|89,18000|88,350|1,10|2,10|0,10","92,100|89,18000|88,350|1,10|2,10|0,10",1,com.kooapps.pianotiles2gp.masterpack.p30,com.kooapps.pianotiles2gp.masterpack.p30,,newshop_box2,icon_store_024.png,,,
+11,111,3,"88,1","88,1",2,,,,,icon_store_018.png,,,
+7,107,3,"88,10","88,12",1,com.kooapps.pianotiles2gp.h1,com.kooapps.pianotiles2gp.h1,,,icon_store_014.png,,,
+8,108,3,"88,53","88,34",1,com.kooapps.pianotiles2gp.h5,com.kooapps.pianotiles2gp.h5,,,icon_store_015.png,,,
+9,109,3,"88,110","88,75",1,com.kooapps.pianotiles2gp.h10,com.kooapps.pianotiles2gp.h10,,,icon_store_016.png,,,
+10,110,3,"88,350","88,194",1,com.kooapps.pianotiles2gp.h30,com.kooapps.pianotiles2gp.h30,,,icon_store_017.png,,,
+12,115,2,"151,1","151,1",1,,,,,icon_store_023.png,,,
+13,112,4,"150,1","150,1",1,com.kooapps.pianotiles2gp.noads.p5,com.kooapps.pianotiles2gp.noads.p5,,,icon_store_118.png,,,
+14,113,2,"90,25","90,25",1,com.kooapps.pianotiles2gp.fragment.h1,com.kooapps.pianotiles2gp.fragment.h1,,,icon_store_022.png,,,
+15,114,2,"90,55","90,55",1,com.kooapps.pianotiles2gp.fragment.h2,com.kooapps.pianotiles2gp.fragment.h2,,,icon_store_022.png,,,
+16,116,2,"92,1","92,1",2,ticket_001,ticket_001,,,icon_shop_le_ticket.png,,,
+17,117,2,"1,1","1,1",4,slow_001,slow_001,,,icon_store_007.png,,75,75
+18,118,2,"2,1","2,1",4,miss_001,miss_001,,,icon_store_008.png,,75,75
+19,119,2,"0,1","0,1",4,speed_001,speed_001,,,icon_store_009.png,,75,75

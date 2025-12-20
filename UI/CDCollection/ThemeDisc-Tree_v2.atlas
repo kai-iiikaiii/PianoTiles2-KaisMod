@@ -1,0 +1,69 @@
+
+ThemeDisc-Tree_v2.png
+size: 2671,2671
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BG
+  rotate: false
+  xy: 1029, 1185
+  size: 1025, 734
+  orig: 1025, 734
+  offset: 0, 0
+  index: -1
+images/BG_Water
+  rotate: false
+  xy: 2, 1185
+  size: 1025, 1484
+  orig: 1025, 1484
+  offset: 0, 0
+  index: -1
+images/BG_Water3
+  rotate: false
+  xy: 2056, 1772
+  size: 613, 897
+  orig: 613, 899
+  offset: 0, 0
+  index: -1
+images/BG_WaterFall
+  rotate: false
+  xy: 2056, 1036
+  size: 563, 734
+  orig: 563, 734
+  offset: 0, 0
+  index: -1
+images/Fog_Behind_Mt
+  rotate: false
+  xy: 1029, 550
+  size: 1025, 633
+  orig: 1025, 635
+  offset: 0, 0
+  index: -1
+images/Fog_Frnt
+  rotate: false
+  xy: 2, 115
+  size: 1025, 1068
+  orig: 1025, 1072
+  offset: 0, 2
+  index: -1
+images/Fog_Frnt_Mt
+  rotate: false
+  xy: 1029, 159
+  size: 1019, 389
+  orig: 1019, 390
+  offset: 0, 0
+  index: -1
+images/Mountain
+  rotate: false
+  xy: 1029, 1921
+  size: 1025, 748
+  orig: 1025, 748
+  offset: 0, 0
+  index: -1
+images/Splash
+  rotate: true
+  xy: 2056, 166
+  size: 868, 317
+  orig: 868, 317
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,11 @@
+stepNo,cost,itemIcon,item,desc,talk,rewardDiamond,rewardLife,rewardCoin
+步骤,花费,道具icon,可选道具(资源名称csb),描述,对话,奖励钻石,奖励体力,奖励金币
+0,200|200,image_gift_light2.png|image_gift_light1.png,Node_tree_xmas_light_1.csb|Node_tree_xmas_light_2.csb,christmastree_select_1,christmastree_A_1_1|christmastree_B_1_1,,,
+1,300|300|300,image_gift_sock1.png|image_gift_sock2.png|image_gift_sock3.png,Node_tree_xmas_sock_1.csb|Node_tree_xmas_sock_2.csb|Node_tree_xmas_sock_3.csb,christmastree_select_2,christmastree_A_2_1|christmastree_B_2_1,,,
+2,350|350|350,image_gift_snow1.png|image_gift_snow2.png|image_gift_snow3.png,a.csb|b.csb|c.csb,christmastree_select_3,christmastree_A_3_1|christmastree_B_3_1,4,5,
+3,400|400,image_gift_cookies1.png|image_gift_cookies2.png,Node_tree_xmas_cookies_1.csb|Node_tree_xmas_cookies_2.csb,christmastree_select_4,christmastree_A_4_1|christmastree_B_4_1,,,
+4,450|450,image_gift_snowman1.png|image_gift_snowman2.png,Node_tree_xmas_snowman_1.csb|Node_tree_xmas_snowman_2.csb,christmastree_select_5,,8,8,
+5,500|500,image_gift_dear1.png|image_gift_dear2.png,Node_tree_xmas_deer_1.csb|Node_tree_xmas_deer_2.csb,christmastree_select_6,christmastree_A_5_1|christmastree_B_5_1,,,
+6,500|500,image_gift_oldman1.png|image_gift_oldman2.png,Node_tree_xmas_oldman_1.csb|Node_tree_xmas_oldman_2.csb,christmastree_select_7,,,,
+7,500|500|500,image_gift_star1.png|image_gift_star2.png|image_gift_star3.png,Node_tree_xmas_star_1.csb|Node_tree_xmas_star_2.csb|Node_tree_xmas_star_3.csb,christmastree_select_8,christmastree_A_6_1|christmastree_B_6_1,12,10,
+8,,,,christmastree_select_9,christmastree_A_7_1|christmastree_B_7_1,,,

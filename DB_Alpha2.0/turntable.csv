@@ -1,0 +1,12 @@
+Id,type,rewardId,index,num,order,level,weights,pack,image,
+序号,奖品类型,奖品Id,道具位置,奖品数量,后补奖品顺序,可抽取等级,掉落权重,组合道具内容：ID|数量,图片,备注
+1,1,501,1,100067,9,,5,,UIAlbum/cover/icon_album_cover_105.png,魏琮霏专辑二
+2,1,203,2,1,0,,15,,icon_lucky_wheel_slow.png,freeze boost x1
+3,1,202,3,1,0,,15,,icon_lucky_wheel_speed.png,sprint boost x1
+4,1,201,4,1,0,,15,,icon_lucky_wheel_miss.png,shield boost x1
+5,1,103,5,1,0,,10,,icon_lucky_wheel_diamond.png,diamond x1
+6,1,102,6,500,0,,5,,icon_lucky_wheel_coin.png,coin x500
+7,1,103,7,10,0,,4,,icon_lucky_wheel_diamond.png,diamond x10
+8,1,101,8,1,0,,35,,icon_le_ticket.png,ticket x1
+9,2,103,0,15,0,,5,,icon_lucky_wheel_diamond.png,diamond x15
+10,3,601,0,0,0,,0,103|1,,每日累计奖励 diamond x1

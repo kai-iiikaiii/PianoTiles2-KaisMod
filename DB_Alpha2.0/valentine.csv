@@ -1,0 +1,8 @@
+stepNo,cost,itemIcon,item,desc,talk,rewardDiamond,rewardLife,rewardCoin
+步骤,花费,道具icon,可选道具(资源名称csb),描述,对话,奖励钻石,奖励体力,奖励金币
+0,150,image_valentine_item_1.png,Node_valentine_car_animation_1.csb,valentine_step_text1,christmastree_A_1_1|christmastree_B_1_1,,,
+1,200,image_valentine_item_2.png,Node_valentine_car_animation_2.csb,valentine_step_text2,christmastree_A_2_1|christmastree_B_2_1,,,
+2,250,image_valentine_item_3.png,Node_valentine_car_animation_3.csb,valentine_step_text3,christmastree_A_3_1|christmastree_B_3_1,2,3,
+3,280,image_valentine_item_4.png,Node_valentine_car_animation_4.csb,valentine_step_text4,christmastree_A_4_1|christmastree_B_4_1,5,5,
+4,350,image_valentine_item_5.png,Node_valentine_car_animation_5.csb,valentine_step_text5,,8,8,
+5,,,,christmastree_select_9,christmastree_A_7_1|christmastree_B_7_1,,,

@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>add.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{165,443},{28,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{28,28}</string>
+			</dict>
+			<key>bg_topbar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,943},{98,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{98,68}</string>
+			</dict>
+			<key>bgglow_coin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{165,331},{112,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{112,82}</string>
+			</dict>
+			<key>bgglow_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{274,943},{82,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{82,59}</string>
+			</dict>
+			<key>bgglow_level.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{247,331},{112,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{112,82}</string>
+			</dict>
+			<key>bgglow_life.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{152,633},{112,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{112,82}</string>
+			</dict>
+			<key>bigdiamond_glow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{300,331}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{300,331}</string>
+			</dict>
+			<key>icon_bigdiamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,331},{165,166}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{165,166}</string>
+			</dict>
+			<key>icon_coin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288,443},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>icon_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288,527},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>icon_level.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{284,725},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>icon_life.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{324,611},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>iconglow_coin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,497},{152,152}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,152}</string>
+			</dict>
+			<key>iconglow_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{234,633},{90,92}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{90,92}</string>
+			</dict>
+			<key>iconglow_level.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,649},{152,152}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{152,152}</string>
+			</dict>
+			<key>iconglow_life.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{152,497},{136,136}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{136,136}</string>
+			</dict>
+			<key>level_progress_bar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{98,943},{88,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,68}</string>
+			</dict>
+			<key>level_progress_bar_common.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{186,943},{88,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{88,68}</string>
+			</dict>
+			<key>loading_empty.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,801},{142,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{142,142}</string>
+			</dict>
+			<key>loading_padding.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{142,801},{142,142}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{142,142}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist_resource.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist_resource.png</string>
+			<key>size</key>
+			<string>{408,1011}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>408</integer>
+			<key>height</key>
+			<integer>1011</integer>
+		</dict>
+	</dict>
+</plist>

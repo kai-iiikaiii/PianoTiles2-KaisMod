@@ -1,0 +1,30 @@
+Id,Type,ReportID,ResetType,RandType,LocalizationKey,TargetCount,Score,RewardType,RewardCount,LVMin,LVMax,RandRate,,
+任务序号,任務類型,埋点上报,重置類型,任务随机类型,多语言,目标数量,获得积分,获得奖励类型,数量,最小等级,最大等级,概率/数量,任务描述,备注
+1001,1,,1,1,Task_Daily_Login,1,5,-1,,,,N/A,Daily Login,N/A
+1002,2,,1,2,Task_LevelUp,1,5,-1,,,20,20,Level Up 1 time,Music tab -> Level subtab
+1003,3,,1,2,Task_Play,1,5,-1,,,,,Play 1 Song,Music tab -> Level subtab
+1004,3,,1,2,Task_Play,5,5,-1,,,,20,Play 5 Songs,Music tab -> Level subtab
+1006,4,,1,2,Task_Lucky_Spin,3,5,-1,,2,,20,Spin Lucky Spin 3 times,Lucky Spin Popup
+1008,5,,1,2,Task_Any_Boost,2,5,-1,,,,20,Use any Boost 2 times,Music tab -> Level subtab
+1009,6,,1,2,Task_Unlock_Song,1,5,-1,,,,20,Unlock any Song 1 time,"Music tab -> Level subtab (locked collection);
+                -> Selection subtab (locked songs)"
+1010,7,,1,2,Task_Star,1,5,-1,,,,20,Collect 1 Star,Music tab -> Level subtab
+1011,8,,1,2,Task_Crown,1,5,-1,,,,20,Collect 1 Crown,Music tab -> Level subtab
+1012,9,,1,2,Task_Sub_Diamond,1,5,-1,,2,,20,Use 1 Diamond,Music tab -> Selection subtab (locked songs)
+1014,10,,1,2,Task_Play_Event,1,5,-1,,,,20,Play any Event Level 1 time,Event tab -> Events subtab
+1015,11,,1,2,Task_Play_Challenge,1,5,-1,,,,20,Play any Challenge Level 1 time,Event tab -> Speed subtab
+1017,12,,1,2,Task_Sub_Ticket,5,5,-1,,,,20,Use 5 Tickets,Event tab -> Events subtab
+2001,15,,2,2,Task_Login,5,20,-1,,,,N/A,Log in 5 times,N/A
+2002,2,,2,2,Task_LevelUp,1,10,-1,,,,N/A,Level Up 1 time,Music tab -> Level subtab
+2003,3,,2,2,Task_Play,20,40,-1,,,,N/A,Play 20 songs,Music tab -> Level subtab
+2004,7,,2,2,Task_Star,15,40,-1,,,20,N/A,Collect 15 Stars,Music tab -> Level subtab
+2005,7,,2,2,Task_Star,20,,-1,,21,50,,Collect 20 Stars,
+2006,7,,2,2,Task_Star,25,,-1,,51,,,Collect 25 Stars,
+2007,8,,2,2,Task_Crown,5,50,-1,,,20,N/A,Collect 5 Crowns,Music tab -> Level subtab
+2008,8,,2,2,Task_Crown,7,,-1,,21,50,,Collect 7 Crowns,
+2009,8,,2,2,Task_Crown,10,,-1,,51,,,Collect 10 Crowns,
+2010,9,,2,2,Task_Sub_Diamond,10,20,-1,,,20,N/A,Use 10 Diamonds,Music tab -> Selection subtab (locked songs)
+2011,9,,2,2,Task_Sub_Diamond,15,,-1,,21,50,,Use 15 Diamonds,
+2012,9,,2,2,Task_Sub_Diamond,20,,-1,,51,,,Use 20 Diamonds,
+2013,13,,2,2,Task_Journey_8,1,20,-1,,,,N/A,Finish Journey of Star Levels 8,Journey of Star Page
+2014,14,,2,2,Task_Journey_16,1,30,-1,,,,N/A,Finish Journey of Star Levels 16,Journey of Star Page

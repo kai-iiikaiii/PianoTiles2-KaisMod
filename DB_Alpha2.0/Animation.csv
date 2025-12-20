@@ -1,0 +1,12 @@
+Id,Name,Animation,Time,Length,Level,LevelMin,LevelMax,UpgradeTime,UpgradeLevel,ColorR,ColorG,ColorB
+AniID[int],AniÃû[string],File:[string],Time:[float] s,Time:[float],ColorLevel:[int],[float],[float],[float],[int],[int] 0~255,[int] 0~255,[int] 0~255
+1024001,,bg.csb,0,0,5,1,2.33,3,2,0xff,0xff,0xff
+1024002,,bgani_loop1.csb,0,0,5,1,2.33,3,2,0xec,0xc8,0xff
+1024003,,bgani_loop2.csb,0,0,5,1,2.33,3,2,0xff,0xd9,0xef
+1024004,,bgani_loop3.csb,0,0,5,1,2.33,3,2,0xff,0xff,0xff
+2048001,,bgani_guodu1.csb,0.2,0.4,0,0,0,3,2,0xff,0xff,0xff
+2048002,,bgani_guodu2.csb,1,2,0,0,0,3,2,0xff,0xff,0xff
+1024007,,bgani_loop1.csb,0,0,5,1,2.33,2,3,0xec,0xc8,0xff
+1024008,,bgani_loop2.csb,0,0,5,1.4,2.33,5,1,0xff,0xd9,0xef
+1024009,,bg.csb,0,0,5,1.4,2.33,4,1,0xff,0xc4,0xfc
+1024010,,bgani_loop2.csb,0,0,5,1.7,2.33,5,1,0xff,0xd9,0xef

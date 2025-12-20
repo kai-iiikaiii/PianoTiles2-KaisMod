@@ -1,0 +1,11 @@
+Id,name,explain,Continuouslanding,award,life,gold,exp
+,任务名,任务说明,连续登陆,奖励类型,奖励体力,奖励金币,奖励经验
+1001,Check out your daily rewards!,Check out your daily rewards!,1,2,10,10,50
+1002,Check out your daily rewards!,Check out your daily rewards!,2,2,11,20,100
+1003,Check out your daily rewards!,Check out your daily rewards!,3,2,12,30,150
+1004,Check out your daily rewards!,Check out your daily rewards!,4,2,15,40,200
+1005,Check out your daily rewards!,Check out your daily rewards!,5,2,15,50,250
+1006,Check out your daily rewards!,Check out your daily rewards!,6,2,15,60,300
+1007,Check out your daily rewards!,Check out your daily rewards!,7,2,15,80,350
+1008,Rate five stars!,Rate five stars!,,2,,80,
+1009,Share with friends! ,Share with friends! ,,2,,80,

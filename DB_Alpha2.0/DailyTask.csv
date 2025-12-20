@@ -1,0 +1,30 @@
+Id,Type,ReportID,ResetType,RandType,LocalizationKey,TargetCount,Score,RewardType,RewardCount,LVMin,LVMax,RandRate,,
+任务序号,任務類型,埋点上报,重置類型,任务随机类型,多语言,目标数量,获得积分,获得奖励类型,数量,最小等级,最大等级,概率/数量,任务描述,备注
+1001,1,,1,1,Task_Daily_Login,1,5,-1,,,,N/A,Daily Login,N/A
+1002,2,,1,2,Task_LevelUp,0,5,-1,,,20,20,Free,Music tab -> Level subtab
+1003,3,,1,2,Task_Play,0,5,-1,,,,,Free,Music tab -> Level subtab
+1004,3,,1,2,Task_Play,0,5,-1,,,,20,Free,Music tab -> Level subtab
+1006,4,,1,2,Task_Lucky_Spin,0,5,-1,,2,,20,Free,Lucky Spin Popup
+1008,5,,1,2,Task_Any_Boost,0,5,-1,,,,20,Free,Music tab -> Level subtab
+1009,6,,1,2,Task_Unlock_Song,0,5,-1,,,,20,Free,"Music tab -> Level subtab (locked collection);
+                -> Selection subtab (locked songs)"
+1010,7,,1,2,Task_Star,0,5,-1,,,,20,Free,Music tab -> Level subtab
+1011,8,,1,2,Task_Crown,0,5,-1,,,,20,Free,Music tab -> Level subtab
+1012,9,,1,2,Task_Sub_Diamond,0,5,-1,,2,,20,Free,Music tab -> Selection subtab (locked songs)
+1014,10,,1,2,Task_Play_Event,0,5,-1,,,,20,Free,Event tab -> Events subtab
+1015,11,,1,2,Task_Play_Challenge,0,5,-1,,,,20,Free,Event tab -> Speed subtab
+1017,12,,1,2,Task_Sub_Ticket,0,5,-1,,,,20,Free,Event tab -> Events subtab
+2001,15,,2,2,Task_Login,0,20,-1,,,,N/A,Free,N/A
+2002,2,,2,2,Task_LevelUp,0,10,-1,,,,N/A,Free,Music tab -> Level subtab
+2003,3,,2,2,Task_Play,0,40,-1,,,,N/A,Free,Music tab -> Level subtab
+2004,7,,2,2,Task_Star,0,40,-1,,,20,N/A,Free,Music tab -> Level subtab
+2005,7,,2,2,Task_Star,0,,-1,,21,50,,Free,
+2006,7,,2,2,Task_Star,0,,-1,,51,,,Free,
+2007,8,,2,2,Task_Crown,0,50,-1,,,20,N/A,Free,Music tab -> Level subtab
+2008,8,,2,2,Task_Crown,0,,-1,,21,50,,Free,
+2009,8,,2,2,Task_Crown,0,,-1,,51,,,Free,
+2010,9,,2,2,Task_Sub_Diamond,0,20,-1,,,20,N/A,Free,Music tab -> Selection subtab (locked songs)
+2011,9,,2,2,Task_Sub_Diamond,0,,-1,,21,50,,Free,
+2012,9,,2,2,Task_Sub_Diamond,0,,-1,,51,,,Free,
+2013,13,,2,2,Task_Journey_8,1,20,-1,,,,N/A,Finish Journey of Star Levels 8,Journey of Star Page
+2014,14,,2,2,Task_Journey_16,1,30,-1,,,,N/A,Finish Journey of Star Levels 16,Journey of Star Page

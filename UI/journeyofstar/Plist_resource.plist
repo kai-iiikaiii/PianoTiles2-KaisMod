@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>add.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{467,244},{28,28}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{28,28}</string>
+			</dict>
+			<key>bg_topbar.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,390},{98,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{98,68}</string>
+			</dict>
+			<key>bgglow_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{84,458},{82,59}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{82,59}</string>
+			</dict>
+			<key>bgglow_life.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,300},{112,82}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{112,82}</string>
+			</dict>
+			<key>bigdiamond_glow.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{300,331}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{300,331}</string>
+			</dict>
+			<key>icon_bigdiamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{331,0},{165,166}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{165,166}</string>
+			</dict>
+			<key>icon_coin.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,382},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>icon_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{204,300},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>icon_le_ticket.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{288,301},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>icon_level.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{204,384},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>iconglow_diamond.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{112,300},{90,92}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{90,92}</string>
+			</dict>
+			<key>iconglow_life.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{331,165},{136,136}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{136,136}</string>
+			</dict>
+			<key>Dialg_jos_Projectile_04.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{467,209},{35,35}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{35,35}</string>
+			</dict>
+			<key>Dialg_jos_Projectile_05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{467,165},{44,44}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{44,44}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>Plist_resource.png</string>
+			<key>realTextureFileName</key>
+			<string>Plist_resource.png</string>
+			<key>size</key>
+			<string>{512,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

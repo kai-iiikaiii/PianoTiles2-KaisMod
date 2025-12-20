@@ -1,0 +1,13 @@
+ID,TID,Png,LevelsPng,Notes
+,,,,
+1,award_practice_make_perfect,Awards/icon_pmp-lvl1.png,,level 1;Can be calculate by song record
+2,award_practice_make_perfect,Awards/icon_pmp-lvl2.png,,level 2
+3,award_practice_make_perfect,Awards/icon_pmp-lvl3.png,,Level 3
+4,award_heart_of_perseverance,,Awards/heart_of_perserverance_1.png|Awards/heart_of_perserverance_2.png|Awards/heart_of_perserverance_3.png|Awards/heart_of_perserverance_4.png|Awards/heart_of_perserverance_5.png|Awards/heart_of_perserverance_6.png,Song of the day play count use stat to control
+5,award_music_note_journey,,Awards/icon_music-note-journey_lvl1.png|Awards/icon_music-note-journey_lvl2.png|Awards/icon_music-note-journey_lvl3.png,
+6,award_music_note_star,Awards/icon_music-note-star.png,,
+7,award_pianist_rank,,Awards/pianist_rank_1.png|Awards/pianist_rank_2.png|Awards/pianist_rank_3.png|Awards/pianist_rank_4.png,
+8,award_music_note_duet,,"Awards/icon_music-note-duet_lvl1.png|Awards/icon_music-note-duet_lvl2.png|Awards/icon_music-note-duet_lvl3.png","Music note of Showtime Duet, get all song to 3 stars"
+9,award_gemini,Awards/icon_gemini-music-note.png,,Teammate score reach top 500
+10,award_10_years,,Awards/icon_journey_lvl1.png|Awards/icon_journey_lvl2.png,
+11,award_full_combo,,Awards/full_combo_1.png|Awards/full_combo_2.png|Awards/full_combo_3.png|Awards/full_combo_4.png|Awards/full_combo_5.png,get full combo in flow mode
